@@ -19,6 +19,7 @@
 <body>
     <header>
         <div class="header-container">
+
             <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-amended">
                 <a class="navbar-brand" href="#">Mental Health Awareness</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -28,7 +29,8 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home <span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
@@ -47,71 +49,79 @@
     </header>
     <main>
         <div class="main-container">
-            <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm consistent-background">
+                        <div class="card-body">
+                            <h3 class="card-title quotes">Meditation Music for you</h3>
+                            <p class="card-text " id="card-text">
+                                <audio controls autoplay>
+                                    <source src="assets/music/calm-soul-meditation-247330.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm consistent-background">
-                            <div class="card-body">
-                                <h3 class="card-title quotes">Music for you</h3>
-                                <p class="card-text " id="card-text">
-                                    <audio controls autoplay>
-                                        <source src="assets/music/calm-soul-meditation-247330.mp3" type="audio/mpeg">
-                                        Your browser does not support the audio element.
-                                    </audio>
-
-                                </p>
-                            </div>
+                            </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm consistent-background">
-                            <div class="card-body">
-                                <h3 class="card-title quotes">Quotes for you</h3>
-
-                                <p class="card-text " id="card-text">
-                                    <ul class="quotes">
-                                        <li>“Your mental health is just as important as your physical health.”
-                                        </li>
-                                        <li>“It’s okay not to be okay.”</li>
-                                        <li>“You are not your mental illness.”</li>
-                                        <li>“Your struggles do not define you.”</li>
-                                        <li>“Taking care of your mental health is an act of self-love.”</li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm consistent-background">
-                            <div class="card-body">
-                                <p class="card-text " id="card-text">
-                                    <ul class="quotes">
-                                        <li>“You are worthy of happiness and peace of mind.”</li>
-                                        <li>“There is no shame in seeking help for your mental health.”</li>
-                                        <li>“It’s okay to take a break and prioritize your mental health.”</li>
-                                        <li>“You are not alone in your struggles.”</li>
-                                        <li>“It’s okay to ask for support when you need it.”</li>
-                                    </ul>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm consistent-background">
+                        <div class="card-body">
+                            <h3 class="card-title quotes text-center">Quotes for you</h3>
+
+                            <p class="card-text " id="card-text">
+                                <ul class="quotes">
+                                    <li>“Your mental health is just as important as your physical health.”
+                                    </li>
+                                    <hr>
+                                    <li>“It’s okay not to be okay.”</li>
+                                    <hr>
+                                    <li>“You are not your mental illness.”</li>
+                                    <hr>
+                                    <li>“Your struggles do not define you.”</li>
+                                    <hr>
+                                    <li>“Taking care of your mental health is an act of self-love.”</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm consistent-background">
+                        <div class="card-body">
+                            <p class="card-text " id="card-text">
+                                <ul class="quotes">
+                                    <li>“You are worthy of happiness and peace of mind.”</li>
+                                    <hr>
+                                    <li>“There is no shame in seeking help for your mental health.”</li>
+                                    <hr>
+                                    <li>“It’s okay to take a break and prioritize your mental health.”</li>
+                                    <hr>
+                                    <li>“You are not alone in your struggles.”</li>
+                                    <hr>
+                                    <li>“It’s okay to ask for support when you need it.”</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div>           </div>
+            <div>           </div>
     </main>
 
     <footer class="footer-class">
-        <h1>Footer</h1>
-        <div class="footer-container">
-            <h3>Our Social Media
-                <ul style="display: inline-block;">
-
-                </ul>
+        <div class="footer-container icons-container">
+            <h3>Social Media</h3>
+            <a href="#" class="fa fa-linkedin fa-3x"></a>
+            <a href="#" class="fa fa-pinterest fa-3x"></a>
+            <a href="#" class="fa fa-reddit fa-3x"></a>
+            <a href="#" class="fa fa-twitter fa-3x"></a>
+            <a href="#" class="fa fa-telegram fa-3x"></a>
         </div>
-        </h1>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
