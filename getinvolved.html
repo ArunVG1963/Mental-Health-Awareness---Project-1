@@ -29,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
@@ -52,27 +52,25 @@
 
                 <div class="row">
                     <div class="col-md-8">
-                        <div class="card mb-4 shadow-sm">
+                        <div class="card mb-4 shadow-sm consistent-background">
                             <div class="card-body">
-                                <h5 class="card-title">Quotes for you</h5>
-                                
-                                <script>
-                                    function insert_text () {
-                                        var para = document.createElement('p');
-                                        var node = document.createTextNode('This is new.');
-                                        para.appendChild(node);
-                                        
-                                        var element = document.getElementById('card-text');
-                                        element.appendChild(para);
-                                    }
-                                </script>
-                                <fieldset>
-                                    Text to insert: <br/>
-                                    <textarea id="content" rows="5" cols="50"></textarea>
-                                    <button id="add" onclick="insert_text()">Add</button>
-                                <fieldset>
-                                    <p class="card-text " id="card-text">
-                                    </p>
+                                <h3 class="card-title quotes">Quotes for you</h3>
+
+                                                                        <p class="card-text " id="card-text">
+                                            <ol class="quotes">
+                                                <li>“Your mental health is just as important as your physical health.”
+                                                </li>
+                                                <li>“It’s okay not to be okay.”</li>
+                                                <li>“You are not your mental illness.”</li>
+                                                <li>“Your struggles do not define you.”</li>
+                                                <li>“Taking care of your mental health is an act of self-love.”</li>
+                                                <li>“You are worthy of happiness and peace of mind.”</li>
+                                                <li>“There is no shame in seeking help for your mental health.”</li>
+                                                <li>“It’s okay to take a break and prioritize your mental health.”</li>
+                                                <li>“You are not alone in your struggles.”</li>
+                                                <li>“It’s okay to ask for support when you need it.”</li>
+                                            </ol>
+                                        </p>
                             </div>
                         </div>
                     </div>
