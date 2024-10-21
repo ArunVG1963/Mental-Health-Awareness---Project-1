@@ -11,7 +11,8 @@ This project is to provide users with an html and css website that provides info
 ### Target Audience
 The audience it is designed for is for those with mild mental health issues, it is intended for persons of adult 18 and over. However it can be used by children 13+ who 
 are Gillick competent to make their own decisions.
-**Guidance:** Use this section to identify who will benefit from your project and why. This should be informed by your user stories and overall project objectives.
+**Guidance:** 
+The primary objective for this website is to provide resources for service users to make informed decisions.
 
 ## User Stories
 
@@ -140,3 +141,4 @@ Briefly discuss potential future improvements or features that could be added to
 **Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
 ## resources
 https://www.mentalhealth.org.uk/get-involved/mental-health-image-library
+### Copilot assistance to create barebones containers for bootstrap
