@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Awareness</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Header</h1>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-amended">
+                <a class="navbar-brand" href="#">Mental Health Awareness</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="container text-center">
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Quotes for you</h5>
+                                
+                                <script>
+                                    function insert_text () {
+                                        var para = document.createElement('p');
+                                        var node = document.createTextNode('This is new.');
+                                        para.appendChild(node);
+                                        
+                                        var element = document.getElementById('card-text');
+                                        element.appendChild(para);
+                                    }
+                                </script>
+                                <fieldset>
+                                    Text to insert: <br/>
+                                    <textarea id="content" rows="5" cols="50"></textarea>
+                                    <button id="add" onclick="insert_text()">Add</button>
+                                <fieldset>
+                                    <p class="card-text " id="card-text">
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+    </main>
+
+    <footer class="footer-class">
+        <h1>Footer</h1>
+        <div class="footer-container">
+            <h3>Our Social Media
+                <ul style="display: inline-block;">
+
+                </ul>
+        </div>
+        </h1>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
