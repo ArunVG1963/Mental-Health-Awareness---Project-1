@@ -147,3 +147,5 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
 
 ### design from 
 Codeinstitute Loverunning and Rosie Odenkirk
+### Images used from 
+https://www.rawpixel.com/search/old%20paper%20texture?page=1&path=_topics&sort=curated
