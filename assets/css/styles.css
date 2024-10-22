@@ -25,6 +25,13 @@ li {
     background-repeat: no-repeat;
     background-size:cover;
 }
+.consistent-paper {
+    background-image: url('../images/sj-objio-XFWiZTa2Ub0-unsplash\ \(1\).jpg');
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 .white-text {
     color : white;
     font-weight: 600;
