@@ -1,4 +1,4 @@
-# Mental Health Awarenedss
+# Mental Health Awareness
 
 
 ## Overview
@@ -17,10 +17,10 @@ The primary objective for this website is to provide resources for service users
 ## User Stories
 
 ### Must-Have User Stories
-- **User Story 1:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+- **User Story 1:** Large font and easy read access
+  **Acceptance Criteria:** Large and easy read font
+- **User Story 2:** Access to further information and pdfs
+  **Acceptance Criteria:** Access to 
 
 (Include all prioritized must-have features)  
 **Guidance:** Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
@@ -46,8 +46,7 @@ The primary objective for this website is to provide resources for service users
 ## Design Decisions
 
 ### Wireframes
-Include wireframes for key sections of your website.  
-Briefly describe the design choices, including layout, colour schemes, and fonts.  
+  
 **Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
 
 ### Accessibility Considerations
@@ -142,3 +141,9 @@ Briefly discuss potential future improvements or features that could be added to
 ## resources
 https://www.mentalhealth.org.uk/get-involved/mental-health-image-library
 ### Copilot assistance to create barebones containers for bootstrap
+
+### Website referred to
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
+
+### design from 
+Codeinstitute Loverunning and Rosie Odenkirk
