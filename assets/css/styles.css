@@ -36,6 +36,10 @@ li {
     color : white;
     font-weight: 600;
 }
+.text-black {
+    color: black;
+    font-weight: 600;
+}
 /* ----------------------------------------- Header */
 #logo {
     height : 50px;
@@ -53,14 +57,23 @@ main {
 
 .main-container {
     margin:10px;
-}
+    }
 
+.container {
+    margin-right:20px;
+    margin-left:40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 /* Bootstrap card item */
 .card {
     height: auto;
     width: auto;
+    display:flex;
+    align-self: auto;
 }
-
+/* content class */ 
 #content {
     background-color: bisque;
     color: darkblue;
@@ -74,7 +87,7 @@ main {
 /* use a calming writing font to read quotes */
 .quotes {
     font-family: "Playwrite GB S", cursive;
-    font-optical-sizing: auto;
+   
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
@@ -124,6 +137,7 @@ footer {
     display:flex;
     justify-content: space-evenly;
     
+    
 }
 .fa:hover {
     opacity: 0.9;
@@ -132,6 +146,7 @@ footer {
 .fa-linkedin {
     background: #007bb5;
     color: white;
+    
 }
 
 .fa-pinterest {
@@ -149,10 +164,13 @@ footer {
     color: blue;
 }
 /* --------------------------------- margins left and right for smaller screen */
-@media screen and ( min-width: 600px;) {
+@media screen and (min-width: 600px) 
+{
  .container {
-    margin-right:20px;
-    margin-left:40px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
 
  }
  .jumbotron h1,p,a {
@@ -163,3 +181,4 @@ footer {
  footer {
     position: absolute;
  }
+}

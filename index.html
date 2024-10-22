@@ -19,20 +19,24 @@
   <!-- Header section with Nav Bar menu from Bootstrap -->
   <header>
     <div class="header-container">
-     <div class="google-translate-container">
-      <div id="google_translate_element"></div>
+      <!-- Google translate added to assist with navigation -->
+      <div class="google-translate-container">
+        <div id="google_translate_element"></div>
 
-      <script type="text/javascript">
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-      }
-      </script>
-      
-      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script type="text/javascript">
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+              pageLanguage: 'en'
+            }, 'google_translate_element');
+          }
+        </script>
 
-     </div>
+        <script type="text/javascript"
+          src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-amended">
+      </div>
+      <!-- Nav Bar from bootstrap  -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-amended">
         <a class="navbar-brand" href="#">Mental Health Awareness</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +46,8 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home <span
-                  class="sr-only">(current)</span></a><hr>
+                  class="sr-only">(current)</span></a>
+              <hr>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -65,27 +70,32 @@
     <div class="main-container">
       <!-- Jumbotron act as a guide to let user know mental health matters -->
       <div class="jumbotron text-center consistent-background consistent-image white-text">
-     
-        <h1 class="display-4"><img id="logo" src="assets/images/istockphoto-1405835109-612x612.jpg"> Mental Health Matters</h1>
+        <!-- Mental Health Matters with link to pdf from Birmingham City Council Webinar -->
+        <h1 class="display-4"><img id="logo" src="assets/images/istockphoto-1405835109-612x612.jpg"> Mental Health
+          Matters</h1>
         <p class="lead">Raising awareness and providing resources for mental well-being</p>
-        <a class="btn btn-primary btn-lg" href="assets/pdf/Mental_Health___community_champions__AF_.pdf" target="_blank" role="button"> <i class="fa fa-leanpub fa-3x" aria-hidden="true"></i>
+        <a class="btn btn-primary btn-lg" href="assets/pdf/Mental_Health___community_champions__AF_.pdf" target="_blank"
+          role="button"> <i class="fa fa-leanpub fa-3x" aria-hidden="true"></i>
           Learn More</a>
       </div>
 
-      <div class="container text-center">
-
+      <!-- Three Cards created for main page content KISS -->
+      <div class="container text-center text-black">
         <div class="row">
           <div class="col-md-4">
-            <div class="card mb-4 shadow-sm consistent-background">
+            <!-- Learning about mental health link to infobooks website -->
+            <div class="card mb-4 shadow-sm consistent-background text-black">
               <div class="card-body">
                 <h5 class="card-title">Understanding Mental Health</h5>
                 <p class="card-text">Learn about different mental health conditions and their impact.</p>
-                <a href="https://www.infobooks.org/free-pdf-books/psychology/mental-health/" target="_blank" class="btn btn-primary"><i class="fa fa-book fa-3x" aria-hidden="true"></i> Read More</a>
+                <a href="https://www.infobooks.org/free-pdf-books/psychology/mental-health/" target="_blank"
+                  class="btn btn-primary"><i class="fa fa-book fa-3x" aria-hidden="true"></i> Read More</a>
               </div>
             </div>
           </div>
+          <!-- Redirection link to NHS Mental health  Support services -->
           <div class="col-md-4">
-            <div class="card mb-4 shadow-sm consistent-background">
+            <div class="card mb-4 shadow-sm consistent-background text-black">
               <div class="card-body">
                 <h5 class="card-title">Support Resources</h5>
                 <p class="card-text">Find support resources and helplines available for you.</p>
@@ -94,8 +104,9 @@
               </div>
             </div>
           </div>
+          <!-- Link to quotes page KISS and abstraction -->
           <div class="col-md-4">
-            <div class="card mb-4 shadow-sm consistent-background">
+            <div class="card mb-4 shadow-sm consistent-background text-black">
               <div class="card-body">
                 <h5 class="card-title">Inspire Me</h5>
                 <p class="card-text">Quotes for our mental journey</p><br>
@@ -107,20 +118,22 @@
         </div>
       </div>
     </div>
+    <!--- Divs for expansion and push down footer-->
     <div> <br><br></div>
   </main>
 
+  <!-- Footer with large icons for Our social media -->
   <footer class="footer-class">
-        <div class="footer-container icons-container">
-          <h3>Our social media</h3>
-          <a href="#" class="fa fa-linkedin fa-3x" aria-label="Our Linkedin page"></a>
-          <a href="#" class="fa fa-pinterest fa-3x" aria-label="Our pininterest page"></a>
-          <a href="#" class="fa fa-reddit fa-3x" aria-label="Our reddit page"></a>
-          <a href="#" class="fa fa-twitter fa-3x" aria-label="Our Twitter in page"></a>
-          <a href="#" class="fa fa-telegram fa-3x" aria-label="Our fa-telegram in page"></a>
+    <div class="footer-container icons-container">
+      <h3>Our social media</h3>
+      <a href="#" class="fa fa-linkedin fa-3x" aria-label="Our Linkedin page"></a>
+      <a href="#" class="fa fa-pinterest fa-3x" aria-label="Our pininterest page"></a>
+      <a href="#" class="fa fa-reddit fa-3x" aria-label="Our reddit page"></a>
+      <a href="#" class="fa fa-twitter fa-3x" aria-label="Our Twitter in page"></a>
+      <a href="#" class="fa fa-telegram fa-3x" aria-label="Our fa-telegram in page"></a>
     </div>
     &copy; Arun VenuGopal
-   </footer>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

@@ -20,32 +20,49 @@ The primary objective for this website is to provide resources for service users
 - **User Story 1:** Large font and easy read access
   **Acceptance Criteria:** Large and easy read font
 - **User Story 2:** Access to further information and pdfs
-  **Acceptance Criteria:** Access to 
+  **Acceptance Criteria:** Access to further information for mental health awareness
 
 (Include all prioritized must-have features)  
 **Guidance:** Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
 
 ### Should-Have User Stories
-- **User Story 1:** Briefly describe the should-have feature.  
+- **User Story 1:** Should have large welcoming area, user knows where he is, use of logos
   **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+- **User Story 2:** Large formatted buttons with logo and text  
+  **Acceptance Criteria:** User can access buttons easily with logo and text
 
 (Include all prioritized should-have features)  
-**Guidance:** Document the secondary features that you aim to implement in Phase 3: Should User Stories Implementation & Any Advanced Features. Include clear acceptance criteria for each.
+**Guidance:** In order to enhance the functionality, there may be an opportunity to include all pdf's via a carousel, with pdf's downloaded to site or updated from a database store
 
 ### Could-Have User Stories
-- **User Story 1:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+- **User Story 1:** Direct video contact with samaritans or counsellor.  
+  **Acceptance Criteria:** Button to automatically send details from a form to an AI enhanced counsellor - working correctly from all media devices.
+- **User Story 2:** A button to access a two way video link and conversation.
+  **Acceptance Criteria:** Working and tested link to a support counsellor.
 
 (Include any could-have features considered for future enhancements)  
 **Guidance:** Document any optional features that are nice to have but not essential.
 
 ## Design Decisions
+The main design consideration was KISS - Keeping the interface simple. Too much information on a page can be distracting and navigation for someone who may require mental health assistance 
+could leave the user wondering where and what to press.
+
+Using bootstrap as recommended simplifies the need for complex css styles.
+
+Using Roboto, Exo and handwriting scripts from google fonts allows for standardised text easy on the eye.
+
+Using a neutal colour and applying gradient fill should soothe the eye. The use of red was verging on pink is to slowly stimulate the user.
+
+Psychological studies also indicate light blue to be a calming colour.
+
+There is also the need to assist people who may require assistance with English, and using google translate gives an option to support users usually excluded.
 
 ### Wireframes
+  ![Image of main page](image.png)
+
+  ![Image of main page on mobile device](image-1.png)
+
+  ![Image of quotes pages on mobile device ](image-2.png)
   
 **Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
 
@@ -149,3 +166,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
 Codeinstitute Loverunning and Rosie Odenkirk
 ### Images used from 
 https://www.rawpixel.com/search/old%20paper%20texture?page=1&path=_topics&sort=curated
+
+### Ensure backward compatibility of components bootstrap of different versions were used.
+https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css
+https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
