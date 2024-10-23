@@ -184,6 +184,34 @@ footer {
     justify-content: space-evenly;
 
  }
+ .main-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ .jumbotron h1,p,a {
+     font-weight: 500;
+    font-family: 'Exo', sans-serif;
+    color:white;
+ }
+ footer {
+    position: absolute;
+ }
+}
+@media screen and (min-width: 344px) 
+{
+ .container {
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+ }
+ .main-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
  .jumbotron h1,p,a {
      font-weight: 500;
     font-family: 'Exo', sans-serif;
