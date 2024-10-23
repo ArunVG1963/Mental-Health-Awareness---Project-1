@@ -2,6 +2,7 @@
 
 
 ## Overview
+Produce a Webpage(s) to assist users with mental health awareness.
 
 ### Purpose
 This project is to provide users with an html and css website that provides information and content to support persons with resources and support for their mental health.
@@ -122,7 +123,14 @@ Mention any specific challenges encountered during deployment.
 
 
 ## Reflection on Development Process
+The development process ideation took longer than expected. 
+As this was a first project - UX phases of 
 
+Strategy - Provide a web page / design simple to navigate and use. The rationale is to provide a positive user experience for mental health awareness. This should take approx 14 hours to complete and is within the scope of expertise for coding in html and css. To reduce too many css classes and ids, Bootstrap ver 4 will be used to assist.
+Scope - Simple three pages with content to support mental health awareness with tips and quotes
+Structure - As per wireframes design. It is to establish a clear context for the creation of the webpage design
+Skeleton - Navigation, colours to elicit an emotional response for the site. The background image for the site is universal and dark colours may not enhance a positive outcome
+Surface - This is the actual prototype for user expectations. 
 
 ### Final Thoughts
 The use of bootstrap was to assist with the development of standardised simple interface for end users. 
