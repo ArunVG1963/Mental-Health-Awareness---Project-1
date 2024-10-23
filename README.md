@@ -1,18 +1,21 @@
 # Mental Health Awareness
 
-
 ## Overview
-Produce a Webpage(s) to assist users with mental health awareness.
+Produce a Webpage(s) to assist users with mental health awareness. The design philosophy is that many users rely on their mobile devices to access content
+and in order to make access to content. Links to external resources have been checked, to ensure they can be utilised.
+The main philosphy behind the website is KIS - Keep it Simple. 
+
+The project was also used to experiment with bootstrap grid, and other html technology.
+
 
 ### Purpose
 This project is to provide users with an html and css website that provides information and content to support persons with resources and support for their mental health.
 
-**Guidance:** Begin filling out this section during Phase 1: Ideation & Initial Setup. Clearly articulate the main goal of your project, what it aims to achieve, and how it will provide value to your target audience.
-
 ### Target Audience
 The audience it is designed for is for those with mild mental health issues, it is intended for persons of adult 18 and over. However it can be used by children 13+ who 
 are Gillick competent to make their own decisions.
-**Guidance:** 
+
+
 The primary objective for this website is to provide resources for service users to make informed decisions.
 
 ## User Stories
@@ -24,7 +27,10 @@ The primary objective for this website is to provide resources for service users
   **Acceptance Criteria:** Access to further information for mental health awareness
 
 (Include all prioritized must-have features)  
-**Guidance:** Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
+- Easy to the eye colours
+- Simple navigation
+- Big Icons
+
 
 ### Should-Have User Stories
 - **User Story 1:** Should have large welcoming area, user knows where he is, use of logos
@@ -33,7 +39,7 @@ The primary objective for this website is to provide resources for service users
   **Acceptance Criteria:** User can access buttons easily with logo and text
 
 (Include all prioritized should-have features)  
-**Guidance:** In order to enhance the functionality, there may be an opportunity to include all pdf's via a carousel, with pdf's downloaded to site or updated from a database store
+In order to enhance the functionality, there may be an opportunity to include all pdf's via a carousel, with pdf's downloaded to site or updated from a database store
 
 ### Could-Have User Stories
 - **User Story 1:** Direct video contact with samaritans or counsellor.  
@@ -45,7 +51,7 @@ The primary objective for this website is to provide resources for service users
 **Guidance:** Document any optional features that are nice to have but not essential.
 
 ## Design Decisions
-The main design consideration was KISS - Keeping the interface simple. Too much information on a page can be distracting and navigation for someone who may require mental health assistance 
+The main design consideration was KIS - Keeping the interface simple. Too much information on a page can be distracting and navigation for someone who may require mental health assistance 
 could leave the user wondering where and what to press.
 
 Using bootstrap as recommended simplifies the need for complex css styles.
@@ -119,7 +125,6 @@ W3C CSS validation was undertaken with iterative correction of typos and propert
 ### Deployment Process
 Briefly describe the deployment process to GitHub Pages or another cloud platform.  
 Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
 
 
 ## Reflection on Development Process
@@ -138,10 +143,19 @@ Complex information on a webpage can be quite duanting and remove the effect of 
 
 Using a simple design from Love Running, and Rosie recruitment page has ensured that KISS principles have been adhered to.
 
+## Bugs found during testing
+
+As part of the validation process, the cards on certain smaller devices do not centre. This could be due to the @media screen and min-width. There is also a left margin that may require tweaking
+the encapsulation by a div element did not offer a solution and this could be due to the ideosyncracy of Bootstrap.
+
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
-## resources
+As per the could have cases, the accessibility of AI bots to provide support for the end user, and a background automatic carousel of calming pictures which the user could customise depending on his profile and cookies would provide a personalised encounter.
+
+As part of the future technology, a picture from a mobile device could be taken and passed to an analyser to assess your para-verbal and facial ticks to get a plan created to support mental health and direct to the user to appropriate content.
+
+If the user is an auditory type of person, the application should direct to appropriate auditory web resources.
+
+## Resources
 https://www.mentalhealth.org.uk/get-involved/mental-health-image-library
 ### Copilot assistance to create barebones containers for bootstrap
 
