@@ -162,11 +162,22 @@ https://www.mentalhealth.org.uk/get-involved/mental-health-image-library
 ### Website referred to
 https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
 
-### design from 
+# Credits
+
+### Design from 
+
 Codeinstitute Loverunning and Rosie Odenkirk
 ### Images used from 
 https://www.rawpixel.com/search/old%20paper%20texture?page=1&path=_topics&sort=curated
+Pexels
+###Music 
+Youtube.com (public domain)
 
+###pdf
+Birmingham Mental Health and Wellbeing
+
+### Thanks
+Matt Edwards for assistance with github deployment issues.
 ### Ensure backward compatibility of components bootstrap of different versions were used.
 https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
 https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css
