@@ -170,11 +170,12 @@ Codeinstitute Loverunning and Rosie Odenkirk
 ### Images used from 
 https://www.rawpixel.com/search/old%20paper%20texture?page=1&path=_topics&sort=curated
 Pexels
-###Music 
+
+### Music 
 Youtube.com (public domain)
 
-###pdf
-Birmingham Mental Health and Wellbeing
+### pdf
+Birmingham Mental Health and Wellbeing serminar
 
 ### Thanks
 Matt Edwards for assistance with github deployment issues.
